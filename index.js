@@ -5,6 +5,7 @@ const exchange = new ccxt.binance({
   secret: 'YOUR_SECRET_KEY',
 });
 
+//
 const symbol = 'BTC/USDT';
 const targetProfit = 0.1; // 10%
 const amount = 0.001;
